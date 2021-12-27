@@ -1,0 +1,21 @@
+{
+  "name": "arduino-yargs",
+  "version": "1.0.0",
+  "description": "arduino UNO used with commands",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "reset": "firmata-party uno --debug",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luis",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "firmata-party": "^2.0.1",
+    "johnny-five": "^2.1.0",
+    "nodemon": "^2.0.15",
+    "serialport": "^9.2.8",
+    "yargs": "^17.3.1"
+  }
+}
